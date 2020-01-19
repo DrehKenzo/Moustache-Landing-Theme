@@ -1,0 +1,7 @@
+.copyright {border-top: 1px solid #ccc;padding: 1vw;}
+.links-copy {display: table;float: right;margin: 0;}
+.links-copy li {display: inline-table;}
+.links-copy .division-copy {margin: 0 15px;}
+.links-copy li a {color: initial;font-size: 15px;text-decoration: none;font-weight: 600;}
+.textwidget p{margin: 0;font-weight: 600;}
+footer{font-family: Lato;}

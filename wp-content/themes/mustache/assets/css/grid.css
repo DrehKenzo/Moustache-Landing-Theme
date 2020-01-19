@@ -1,0 +1,28 @@
+/* Grid */
+.section { float: left; width: 100%; }
+.main { position:relative; width: 100%; max-width: 1530px; padding: 0 15px; margin: 0 auto; display: table;}
+.colum-2 {position: relative;display: inline-table;width: 16.5%;float: left;}
+.colum-20 {position: relative;display: inline-table;width: 20%;float: left;}
+.colum-3 {position: relative; display: inline-table;width: 24.9%; float: left;}
+.colum-4 {position: relative; display: inline-table;width: 33.3%; float: left;}
+.colum-6 {position: relative; display: inline-table;width: 50%; float: left;}
+.colum-8 {position: relative; display: inline-table;width: 66.6%; float: left;}
+.colum-9 {position: relative; display: inline-table;width: 74.7%; float: left;}
+.colum-12 { width: 100%;position: relative; display: inline-table;float: left; }
+.colum-right { float: right; }
+.colum-spacing { padding: 0 20px; }
+.colum-spacing-right { padding-right: 20px; }
+.colum-center { text-align: center; }
+.colum-6 .line-definition-right { width: 90%; }
+.spacing-colum-3 { margin-left: 14%; }
+.ajust-colum-case {margin-left: 18.5%;}
+.colum-9 p{font-size: 12px !important;}
+
+#box-mapa .colum-12:not(:last-child){margin-bottom: 40px;}
+#box-mapa .colum-12 > .subtitle-page{text-align: center; margin-bottom: 65px;}
+#box-mapa .colum-20{position: relative;}
+#box-mapa .colum-20::before{content: ''; position: absolute; border-left: solid 2px #cccccc; left: 50%; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); height: 25px; bottom: 100%; margin-bottom: 15px;}
+#box-mapa .colum-20:not(:last-child)::after{content: ''; position: absolute; border-bottom: solid 2px #cccccc; width: 100%; left: 50%; bottom: 100%; margin-bottom: 38px;}
+#box-mapa .colum-20 .subtitle-page{margin-bottom: 10px; font-size: 1em; text-align: center;}
+#box-mapa a, #box-mapa a:active, #box-mapa a:focus, #box-mapa a:visited{color: #444444; margin-bottom: 14px; display: block; text-decoration: none; font-size: 0.9em; -webkit-transition: color 300ms; -moz-transition: color 300ms; -ms-transition: color 300ms; -o-transition: color 300ms; transition: color 300ms; text-align: center;}
+#box-mapa a:hover{color: #4979ff;}

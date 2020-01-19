@@ -1,0 +1,101 @@
+/*
+Theme Name: Mustache
+Theme URI: https://mustache.com.br
+Author: André Kenzo Murakami
+Author URI: https://www.linkedin.com/in/andr%C3%A9-kenzo-06294b35/
+Description: Tema desenvolvido para o teste mustache 2020
+Version: 1.0
+Tags: mustache
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* comum */
+main.pagina-main {position: relative;width: 100%;max-width: 1330px;padding: 0 15px;margin: 0 auto;}
+.pagina-main .subtitle-page{display: flex;width: 100%;min-height: 130px;margin: 0;justify-content: center;}
+.pagina-main .subtitle-page span{align-self: center;font-size: 40px;font-family: Lato;}
+
+/* informaçoes da home */
+.line-definition-right {position: relative;margin: 1vw 0;display: block;width: 75%;height: 1px;background: #d9d9d9;}
+.line-definition-right::after {content: "";position: absolute;width: 10%;height: 1px;top: 0;left: 0;background: #434040;}
+.line-definition--center::after {right: 0;display: block;margin: 0 auto;}
+.lista-de-informacoes{margin: 20px 0 70px 0;}
+.lista-de-informacoes h2{font-size: 25px;}
+.lista-de-informacoes .mb-100{padding: 25px;}
+.lista-de-informacoes .textwidget p{display: inline-flex;}
+.lista-de-informacoes .textwidget img{margin: 8px 15px 0 0;}
+
+/* formulario */
+.wpcf7-form input{width: 100%;background: #fff;border:2px solid #dcdcdc;padding:12px 20px;display: flex;margin-bottom: 20px;}
+.wpcf7-form input[type="submit"]{max-width: 320px;background: #5b5b5f;border: 0;color: #fff;justify-content: center;margin: 15px auto;line-height: 55px;font-size: 20px;padding: 0;}
+.wpcf7-form row{display: flex;}
+
+/* cards */
+.item-post-thumbnail{position: relative;}
+.item-post-thumbnail ul{position: absolute;margin: 20px;background-color: #221e40;padding: 5px 28px;font-size: 17px;}
+.item-post-thumbnail ul a{color:#fff;text-decoration: none;}
+body .owl-carousel .owl-nav button.owl-next, body .owl-carousel .owl-nav button.owl-prev{padding: 0px 15px !important;border: 1px solid #5b5b5f;border-radius: 0;height: 40px;line-height: 32px;width: 40px;}
+body .owl-carousel .owl-nav button.owl-next span, body .owl-carousel .owl-nav button.owl-prev span{font-size: 20px;}
+body .owl-carousel .owl-nav button.owl-prev{position: absolute;right: 60%;}
+body .owl-carousel .owl-nav button.owl-next{position: absolute;left: 60%;}
+body .owl-carousel .item{border: 1px solid #9c9aa0;box-shadow: 11px 12px 0px 4px #f7f7f7;}
+body .owl-carousel .owl-stage-outer{padding-bottom: 50px;}
+body .owl-carousel .item .item-content{padding: 35px;}
+body .owl-carousel .item .item-content h3{font-size: 33px;color:#322b2a;}
+body .owl-carousel .item .item-content a{width: 100%;text-align: center;display: block;line-height: 55px;font-size: 20px;color:#5b5b5f;border: 1px solid #a09ea4;transition: all 0.5s ease;}
+body .owl-carousel .item .item-content a:hover{background: #5b5b5f;color:#fff;text-decoration: none;}
+
+/* busca */
+#ajaxsearchpro1_1 .probox .proinput input.orig, #ajaxsearchpro1_2 .probox .proinput input.orig, div.asp_m.asp_m_1 .probox .proinput input.orig{display: flex;}
+
+/* single page */
+.single-post-thumbnail, .single-page-thumbnail{width: 100%;background-size:cover !important;min-height: 30vh;display: flex;justify-content: center;color:#fff;}
+.single-post-thumbnail h2, .single-page-thumbnail h2{align-self: center;font-size: 40px;padding: 0 20px;}
+.single-post-geral, .pagina-conteudo{padding: 55px 0;}

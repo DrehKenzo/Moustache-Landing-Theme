@@ -1,0 +1,16 @@
+header{background-color: #333333;display: flex;justify-content: center;flex-direction: row;border-top: 1px solid #3f3f3f;position: fixed;z-index: 45344;width: 100%;}
+header .container{justify-content: space-between;max-width: 1330px;width: 100%;display: flex !important;}
+
+/* logo */
+#menu-item-38{align-self: center;}
+#menu-item-38 a{height:14px;width: 42px;text-indent: -9999px;display: block;background-image: url(../imgs/logo.png);background-repeat: no-repeat;align-self:center;}
+
+#menu-menu-principal{display: flex;line-height: 42px;margin-bottom: 0;}
+#menu-menu-principal li{align-self: center;}
+#menu-menu-principal a{color:#fff;font-size: 16px;padding: 0 18px;text-decoration: none;}
+
+body .current-menu-item a, body #menu-menu-principal a:hover{color:#999999 !important;}
+.container .busca{line-height: 42px;align-self: center; position: relative;min-width: 190px;}
+.container .busca label{display: none;}
+.container .busca input[type="text"]{display: flex;width: 190px;height: 28px;background-color: #1f1f1f;border: 0;padding: 0 15px;}
+.container .busca input[type="submit"]{position: absolute;right: 0;top: 0;width: 28px;height: 28px;display: block;background: url(../imgs/busca.png) center center no-repeat;border: 0;text-indent: -9999px;}

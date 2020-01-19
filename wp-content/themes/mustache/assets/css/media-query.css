@@ -1,0 +1,17 @@
+@media only screen and (min-width: 768px){
+  .menu-mobile, .mobile-menu-list{display:none !important;}
+  #banner-principal, .single-post-thumbnail, .single-page-thumbnail{padding-top: 43px;}
+}
+
+@media only screen and (max-width: 768px){
+  #menu{display:none !important;}
+  .row .mb-100, .copyright .mb-100{width: 100% !important;flex: 100% !important;max-width: 100% !important;}
+  .row .mb-50{width: 50% !important;flex: 50% !important;max-width: 50% !important;}
+  .pagina-main .subtitle-page span{font-size: 2rem;}
+  .owl-theme .owl-dots{display: block !important;}
+  .owl-theme .owl-nav{display: none !important;}
+  .links-copy{float: none;display: flex;justify-content: center;}
+  .links-copy li a {font-size: 2.8vw;}
+  .text-copy p {font-size: 2.8vw;text-align: center;}
+  header{position: relative;}
+}
