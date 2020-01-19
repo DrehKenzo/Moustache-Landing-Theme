@@ -99,7 +99,7 @@ add_action('admin_head', 'submenus');
 function submenus() {
   echo '
   <style>
-    #toplevel_page_asp_settings{
+    #toplevel_page_asp_settings, #toplevel_page_slate_pro_color_schemes{
       display:none; 
     }
     
